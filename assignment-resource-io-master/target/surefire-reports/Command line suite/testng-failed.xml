@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.qainfotech.tap.training.resourceio.TeamsYamlReaderTest">
+        <methods>
+          <include name="Team_getActiveMembers_should_return_a_list_of_team_members_that_are_active"/>
+          <include name="loadDB"/>
+          <include name="Team_getInactiveMembers_should_return_a_list_of_individual_team_members_that_are_inactive"/>
+        </methods>
+      </class> <!-- com.qainfotech.tap.training.resourceio.TeamsYamlReaderTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

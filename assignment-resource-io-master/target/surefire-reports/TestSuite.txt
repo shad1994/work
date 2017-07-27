@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 22, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.861 sec <<< FAILURE!
+Team_getActiveMembers_should_return_a_list_of_team_members_that_are_active(com.qainfotech.tap.training.resourceio.TeamsYamlReaderTest)  Time elapsed: 0.09 sec  <<< FAILURE!
+java.lang.ClassCastException: java.lang.Integer cannot be cast to com.qainfotech.tap.training.resourceio.model.Individual
+	at com.qainfotech.tap.training.resourceio.model.Team.getActiveMembers(Team.java:77)
+	at com.qainfotech.tap.training.resourceio.TeamsYamlReaderTest.Team_getActiveMembers_should_return_a_list_of_team_members_that_are_active(TeamsYamlReaderTest.java:110)
+
+Team_getInactiveMembers_should_return_a_list_of_individual_team_members_that_are_inactive(com.qainfotech.tap.training.resourceio.TeamsYamlReaderTest)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.ClassCastException: java.lang.Integer cannot be cast to com.qainfotech.tap.training.resourceio.model.Individual
+	at com.qainfotech.tap.training.resourceio.model.Team.getInactiveMembers(Team.java:118)
+	at com.qainfotech.tap.training.resourceio.TeamsYamlReaderTest.Team_getInactiveMembers_should_return_a_list_of_individual_team_members_that_are_inactive(TeamsYamlReaderTest.java:118)
+
